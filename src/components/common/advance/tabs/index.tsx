@@ -7,11 +7,9 @@ import CapitalPrograms from "./CapitalPrograms";
 
 const AdvanceTabsWrapper = styled("div")`
   margin-top: 2.5rem;
-`;
 
-const TabPaneWrapper = styled(TabPane)`
-  &#rc-tabs-1-panel-1 > div {
-    border-top-left-radius: 0px;
+  div.rc-tabs-tabpane:first-of-type > div {
+    border-top-left-radius: 0;
   }
 `;
 
@@ -22,16 +20,16 @@ const AdvanceTabs: React.FC<{
   return (
     <AdvanceTabsWrapper>
       <Tabs defaultActiveKey="1">
-        <TabPaneWrapper tab="Company Revenues" key="1">
+        <TabPane tab="Company Revenues" key="1">
           <TableContainer>
             <CompanyRevenue revenues={revenues} />
           </TableContainer>
-        </TabPaneWrapper>
-        <TabPaneWrapper tab="Company Capital Programs" key="2">
+        </TabPane>
+        <TabPane tab="Company Capital Programs" key="2">
           <TableContainer>
             <CapitalPrograms programs={programs} />
           </TableContainer>
-        </TabPaneWrapper>
+        </TabPane>
       </Tabs>
     </AdvanceTabsWrapper>
   );
