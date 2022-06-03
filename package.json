@@ -2,7 +2,7 @@
   "name": "nash-grow",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://reaper45.github.io",
+  "homepage": "https://github.com/Reaper45/nash-grow.git#README.md",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
@@ -26,9 +26,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -50,7 +48,6 @@
   },
   "devDependencies": {
     "@emotion/babel-plugin": "^11.9.2",
-    "@types/lodash": "^4.14.182",
-    "gh-pages": "^4.0.0"
+    "@types/lodash": "^4.14.182"
   }
 }
