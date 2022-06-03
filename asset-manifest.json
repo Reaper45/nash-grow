@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/nash-grow/static/css/main.466347e3.css",
-    "main.js": "/nash-grow/static/js/main.6d3f7bee.js",
-    "static/js/787.de0ecaba.chunk.js": "/nash-grow/static/js/787.de0ecaba.chunk.js",
-    "static/media/canada.svg": "/nash-grow/static/media/canada.69e7530f3678be374315230626732eac.svg",
-    "static/media/home.svg": "/nash-grow/static/media/home.042c40c0eab17588c163403c12acc047.svg",
-    "static/media/credit-card.svg": "/nash-grow/static/media/credit-card.98fc998c653a49680a599b1217ff30fa.svg",
-    "static/media/chinese.svg": "/nash-grow/static/media/chinese.a9c37b68ae4da10adbf703a95fb22b6f.svg",
-    "static/media/lock.svg": "/nash-grow/static/media/lock.aa09df3361589ba6c44c2d026e22d7a5.svg",
-    "static/media/uk.svg": "/nash-grow/static/media/uk.3aa10fff4d23af57b70cf9bac81ea72c.svg",
-    "index.html": "/nash-grow/index.html",
-    "static/media/arrow-forward.svg": "/nash-grow/static/media/arrow-forward.e15cc4feebb9b3df8e66cbdd0e296560.svg",
-    "static/media/ireland.svg": "/nash-grow/static/media/ireland.7cb9fa3f065240ea11503ab6e527576a.svg",
-    "static/media/arrow-back.svg": "/nash-grow/static/media/arrow-back.2b2664f9f66ee997651cc8284ba48e16.svg",
-    "static/media/arrow-down.svg": "/nash-grow/static/media/arrow-down.345f6ca9378a97332e63f595c9cc5ee1.svg",
-    "main.466347e3.css.map": "/nash-grow/static/css/main.466347e3.css.map",
-    "main.6d3f7bee.js.map": "/nash-grow/static/js/main.6d3f7bee.js.map",
-    "787.de0ecaba.chunk.js.map": "/nash-grow/static/js/787.de0ecaba.chunk.js.map"
+    "main.css": "/static/css/main.466347e3.css",
+    "main.js": "/static/js/main.476e0a56.js",
+    "static/js/787.de0ecaba.chunk.js": "/static/js/787.de0ecaba.chunk.js",
+    "static/media/canada.svg": "/static/media/canada.69e7530f3678be374315230626732eac.svg",
+    "static/media/home.svg": "/static/media/home.042c40c0eab17588c163403c12acc047.svg",
+    "static/media/credit-card.svg": "/static/media/credit-card.98fc998c653a49680a599b1217ff30fa.svg",
+    "static/media/chinese.svg": "/static/media/chinese.a9c37b68ae4da10adbf703a95fb22b6f.svg",
+    "static/media/lock.svg": "/static/media/lock.aa09df3361589ba6c44c2d026e22d7a5.svg",
+    "static/media/uk.svg": "/static/media/uk.3aa10fff4d23af57b70cf9bac81ea72c.svg",
+    "index.html": "/index.html",
+    "static/media/arrow-forward.svg": "/static/media/arrow-forward.e15cc4feebb9b3df8e66cbdd0e296560.svg",
+    "static/media/ireland.svg": "/static/media/ireland.7cb9fa3f065240ea11503ab6e527576a.svg",
+    "static/media/arrow-back.svg": "/static/media/arrow-back.2b2664f9f66ee997651cc8284ba48e16.svg",
+    "static/media/arrow-down.svg": "/static/media/arrow-down.345f6ca9378a97332e63f595c9cc5ee1.svg",
+    "main.466347e3.css.map": "/static/css/main.466347e3.css.map",
+    "main.476e0a56.js.map": "/static/js/main.476e0a56.js.map",
+    "787.de0ecaba.chunk.js.map": "/static/js/787.de0ecaba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.466347e3.css",
-    "static/js/main.6d3f7bee.js"
+    "static/js/main.476e0a56.js"
   ]
 }
