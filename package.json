@@ -2,7 +2,6 @@
   "name": "nash-grow",
   "version": "0.1.1",
   "private": true,
-  "homepage": "https://github.com/Reaper45/nash-grow.git#README.md",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
@@ -49,5 +48,8 @@
   "devDependencies": {
     "@emotion/babel-plugin": "^11.9.2",
     "@types/lodash": "^4.14.182"
+  },
+  "engines": {
+    "node": "16.*"
   }
 }
