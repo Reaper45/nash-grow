@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import React from "react";
+import { Outlet } from "react-router-dom";
 
 import NavItems from "./NavItems";
 
@@ -44,16 +45,15 @@ const NavWrapper = styled("nav")`
   backdrop-filter: blur(40px);
 `;
 
-const Layout: React.FC<{ children: <T>(props: T) => React.ReactElement }> = ({
-  children,
-  ...props
-}) => {
+const Layout: React.FC<any> = ({ children, ...props }) => {
   return (
     <LayoutWrapper>
       <NavWrapper>
         <NavItems />
       </NavWrapper>
-      <main>{children(props)}</main>
+      <main>
+        <Outlet />
+      </main>
     </LayoutWrapper>
   );
 };

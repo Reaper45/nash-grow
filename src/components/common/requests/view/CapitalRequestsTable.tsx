@@ -13,7 +13,7 @@ import { ReactComponent as ChineseFlag } from "assets/flags/chinese.svg";
 import { ReactComponent as IrelandFlag } from "assets/flags/ireland.svg";
 import { ReactComponent as UkFlag } from "assets/flags/uk.svg";
 
-const CapitalRequestTable: React.FC<{
+const CapitalRequestsTable: React.FC<{
   requests: Array<any>;
   selected: Array<String>; // List of ids of the selected items
   onSelect: (id: string) => void;
@@ -85,4 +85,4 @@ const CapitalRequestTable: React.FC<{
   );
 };
 
-export default CapitalRequestTable;
+export default CapitalRequestsTable;

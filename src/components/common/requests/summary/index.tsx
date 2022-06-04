@@ -6,9 +6,17 @@ import PayoutSchedule from "./PayoutSchedule";
 import PayoutSummary from "./PayoutSummary";
 
 const CapitalRequestSummaryWrapper = styled("div")`
-  height: 100%;
   display: flex;
   flex-direction: column;
+  width: 280px;
+  border-radius: 8px;
+  padding: 1rem;
+  background: linear-gradient(
+    269.48deg,
+    #28dd9c -42.33%,
+    rgba(40, 221, 156, 0.59) 42.29%,
+    rgba(40, 221, 156, 0.42) 126.9%
+  );
 
   div.payout-content {
     height: 100%;
