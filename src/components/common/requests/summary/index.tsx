@@ -17,6 +17,7 @@ const CapitalRequestSummaryWrapper = styled("div")`
     rgba(40, 221, 156, 0.59) 42.29%,
     rgba(40, 221, 156, 0.42) 126.9%
   );
+  margin-left: 2rem;
 
   div.payout-content {
     height: 100%;

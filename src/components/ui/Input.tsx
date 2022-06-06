@@ -3,6 +3,16 @@ import styled from "@emotion/styled";
 const Input = styled("input")`
   background: #fff;
 
+  &[type="text"] {
+    border: solid 1px ${(props) => props.theme.color.primary};
+    background: none;
+    padding: 8px 16px;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+
   &[type="checkbox"] {
     appearance: none;
     padding: 5px;

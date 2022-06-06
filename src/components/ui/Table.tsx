@@ -75,6 +75,8 @@ export const TableContainer = styled("div")`
   );
   border-radius: 12px;
   padding: 1rem;
+  height: fit-content;
+  flex-grow: 1;
 `;
 
 export default Table;

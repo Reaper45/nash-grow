@@ -5,16 +5,10 @@ import React, { useState } from "react";
 import CapitalRequestSummary from "components/common/requests/summary";
 import { TableContainer } from "components/ui/Table";
 import CapitalRequestsTable from "./CapitalRequestsTable";
+import FlexWrapper from "components/ui/FlexWrapper";
 
-const Content = styled("div")`
-  display: flex;
-  margin-top: 2rem;
-`;
-
-const TableContainerWrapper = styled(TableContainer)<{ collapsed: boolean }>`
-  flex-grow: 1;
-  margin-right: ${(props) => (props.collapsed ? "2rem" : "0")};
-  width: ${(props) => (props.collapsed ? "70%" : "100%")};
+const TableContainerWrapper = styled(TableContainer)<{ collapsed?: boolean }>`
+  width: ${(props) => (props?.collapsed ? "70%" : "100%")};
 `;
 
 const requests: Array<CapitalRequest> = [
@@ -89,7 +83,7 @@ const CapitalRequestsView = () => {
     <div>
       <h1 className="page-title">Request More Capital</h1>
 
-      <Content>
+      <FlexWrapper mt={2} align="flex-start">
         <TableContainerWrapper collapsed={showSummarry}>
           <CapitalRequestsTable
             requests={requests}
@@ -99,7 +93,7 @@ const CapitalRequestsView = () => {
         </TableContainerWrapper>
 
         {showSummarry && <CapitalRequestSummary />}
-      </Content>
+      </FlexWrapper>
     </div>
   );
 };

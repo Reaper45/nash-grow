@@ -16,8 +16,8 @@ import { ReactComponent as UkFlag } from "assets/flags/uk.svg";
 const CapitalRequestsTable: React.FC<{
   requests: Array<any>;
   selected: Array<String>; // List of ids of the selected items
-  onSelect: (id: string) => void;
-}> = ({ selected = [], requests = [], onSelect }) => {
+  onSelect?: (id: string) => void;
+}> = ({ selected = [], requests = [], onSelect = console.log }) => {
   return (
     <Table>
       <thead>
